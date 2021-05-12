@@ -1,0 +1,61 @@
+.header-div{
+    color:coral;
+    background-color: azure; 
+    border:coral solid 5px; 
+    margin-bottom: 20px; 
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap; 
+    align-items: center;
+} 
+.main-content{ 
+    background-color: azure;
+    color:coral; 
+    border:solid coral 5px;
+} 
+.nav{
+    margin-bottom: 20px; 
+    height: 40px; 
+    display:flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    margin-left: 300px; 
+    padding: 25px;
+    align-items: center; 
+    font-size: larger;
+
+} 
+.nav a {
+    text-decoration: none; 
+    color: coral; 
+    margin-right: 10px;
+} 
+.about-div {
+    min-height: 50vh;
+} 
+.about-div p {
+    font-size: larger;
+}
+.work-div {
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+} 
+
+.css-photo {
+}
+.css-img-text {
+    position:absolute;
+    margin: 50px;
+    margin-left: 50px;
+}
+.contact-div a {
+    text-decoration: none; 
+    color:coral; 
+    font-size: larger;
+} 
+.contact-div p {
+    font-size: larger;
+}
